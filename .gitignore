@@ -1,0 +1,26 @@
+# dependencies
+/node_modules
+
+# environment
+.env
+.env.*
+
+# logs
+*.log
+logs/
+
+# IDE
+.idea/
+.vscode/
+
+# database
+/postgres_data
+
+# Prisma
+/prisma/migrations/
+*.db
+*.db-journal
+
+# misc
+.DS_Store
+*.pem
